@@ -1,5 +1,7 @@
 package org.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Circulos extends FigurasGeometricas{
     double radio;
     public Circulos(){}
@@ -20,6 +22,10 @@ public class Circulos extends FigurasGeometricas{
     public void imprimirCirculo(){
         System.out.println("Circulo: " + this.getRadio());
     }
+    public void imprimirCircu() {
+        System.out.println("you");
+    }
+
 
 
 
