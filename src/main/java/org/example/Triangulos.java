@@ -3,6 +3,9 @@ package org.example;
 public class Triangulos extends FigurasGeometricas {
     double base;
     double altura;
+    double ladoA;
+    double ladoB;
+    double ladoC;
 
     public Triangulos(double base, double altura) {
     }
@@ -29,7 +32,7 @@ public class Triangulos extends FigurasGeometricas {
         return base * altura;
     }
     public double Perimetro() {
-        return 2 * (base + altura);
+        return ladoA + ladoB + ladoC;
     }
 
 

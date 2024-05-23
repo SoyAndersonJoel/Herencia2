@@ -22,7 +22,7 @@ public class Decagono extends  FigurasGeometricas {
     public void setApotema(double apotema) {
         this.apotema = apotema;
     }
-    public double perimetroDecaagono() {
+    public double perimetroDecagono() {
         return lado*nLados;
     }
     public double areaDecagono() {
