@@ -17,7 +17,9 @@ public class Circulos extends FigurasGeometricas{
         return 2 * Math.PI * radio;
     }
 
-
+    public void imprimirCirculo(){
+        System.out.println("Circulo: " + this.getRadio());
+    }
 
 
 
