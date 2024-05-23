@@ -14,20 +14,20 @@ public class Main {
         Hexagono mifigura9 = new Hexagono();
 
 
-        mifigura2.setNombre("El cir");
+        mifigura2.setNombre("El circulo");
         System.out.println("\n\nNombre: "+mifigura2.getNombre());
         mifigura2.setRadio(4.00);
         System.out.println("las medidas son: \n Radio"+mifigura2.getRadio());
         System.out.println("Y su area :  "+mifigura2.CalcularArea());
 
-        mifigura3.setNombre("El tri");
+        mifigura3.setNombre("El triangulo");
         System.out.println("\n\nNombre: "+mifigura3.getNombre());
         mifigura3.setAltura(8.00);
         mifigura3.setBase(5.00);
         System.out.println("Las  medidas son: \n Altura: "+mifigura3.getAltura()+"\n Base: "+mifigura3.getBase());
         System.out.println("El Area es: "+mifigura3.Area());
 
-        mifigura4.setNombre("El cua");
+        mifigura4.setNombre("El cuadrado");
         System.out.println("\n\nNombre: "+mifigura4.getNombre());
         mifigura4.setAlto(9.00);
         mifigura4.setAncho(8.00);
