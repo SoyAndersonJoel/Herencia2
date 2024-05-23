@@ -22,6 +22,10 @@ public class FigurasGeometricas  {
     public void setnLados(int nLados) {
         this.nLados = nLados;
     }
+    public void imprimir(){
+
+        System.out.println("comprobacion commit");
+    }
 
 
 
